@@ -1,0 +1,40 @@
+.body{
+    background-color: rgb(40, 177, 177);
+    padding: 10px;
+    margin: 10px;
+}
+.colore{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color:navy;
+    font-size: 30px;
+    float: center;
+    text-align: center;
+    border: 10px ridge rgb(19, 99, 190);
+}
+
+.conteudo{
+    background-color: rgb(127, 187, 255);
+    float: center;
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    li{
+        font-family: 'Bricolage Grotesque', sans-serif;
+        float: center;
+        color:navy;
+    }
+}
+
+h1{
+    font-size: 50px;
+    color:navy;
+}
+
+h2{
+    font-size: 30px;
+    color:navy;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(49, 49, 207);
+}
