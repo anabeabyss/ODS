@@ -55,7 +55,6 @@ a:link {
 }
 
 .conteudo{
-    display: block;
     color:rgb(255, 255, 255);
     width: 700px;
 
@@ -135,14 +134,14 @@ h3{
     font-size:25px;
     color: rgb(1, 21, 47);
     text-align: center;
-    border-top: dotted 5px rgb(255, 255, 255);
+    border-top: dashed 4px rgb(255, 255, 255);
 }
 
 h4{
     font-size:25px;
     color:rgb(255, 255, 255);
     text-align: center;
-    border-bottom: dotted 2px white;
+    border-bottom: dashed 2px white;
 }
 
 p{
@@ -157,6 +156,6 @@ p{
         padding: none;
         margin: 8px auto;
         float: none;
-    }
 
+}
 }
