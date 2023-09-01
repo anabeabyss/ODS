@@ -1,20 +1,57 @@
 body{
     background-color: rgb(6, 88, 194);
-    align-content: center;
-    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: rgb(255, 255, 255);
     margin: 0;
+    padding: 0;
+    width: auto;
 }
+
 header{
+  background-color: rgb(1, 21, 47);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color:rgb(255, 255, 255);
+  font-size: 15px;
+  margin-top: 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+
+li{
+    list-style: none;
+    align-self: center;
+    float: left;
+    margin: 10px 10px 20px 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+.intro{
     font-family: 'Bricolage Grotesque', sans-serif;
     background-image: url("flat-design-japanese-wave-pattern_23-2149531034.avif");
     height: 400px;
     padding: 10%;
     margin: 0;
+    width: 100%;
 }
 .info{
     text-align: center;
     font-family: 'Bricolage Grotesque', sans-serif;
     color:rgb(255, 255, 255);
+    float: center;
 }
 
 .conteudo{
@@ -32,7 +69,6 @@ blockquote{
     font-family: 'Bricolage Grotesque', sans-serif;
     float: left;
     text-align: center;
-    position: relative;
     color:rgb(1, 21, 47);
     text-align:center;
     font-size: 20px;
@@ -40,28 +76,18 @@ blockquote{
     padding: 10px;
     
 }
-
-.extint{
-  display: flex;
-  float: left;
-  text-align: center;
-  width: 200px;
-  height: auto;
-}
-
 .animais{
     color:rgb(246, 246, 255);
     text-align:center;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 20px;
     border-radius: 30%;
-    width: 500px;
+    width: 100%;
     height: auto;
 }
 
 .sobremim{
-    background-color:rgb(255, 255, 255);
-    color:rgb(1, 21, 47);
+    background-color: rgb(77, 136, 211);
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 25px;
 }
@@ -87,10 +113,10 @@ blockquote{
 
 footer{
     font-family: 'Bricolage Grotesque', sans-serif;
-    color:rgb(1, 21, 47);
     font-size: 20px;
     text-align: center;
-    background-color: rgb(77, 136, 211);
+    background-color:rgb(1, 21, 47);
+    width: 100%;
 }
 
 h1{
@@ -100,7 +126,7 @@ h1{
 }
 
 h2{
-    font-size: 50px;
+    font-size: 30px;
     color:rgb(255, 255, 255);
     border-bottom: 3px dashed white;
 }
